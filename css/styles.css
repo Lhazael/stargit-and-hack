@@ -43,22 +43,22 @@ img {
   font-size: 0.9em;
 }
 
-
 .description {
   display: flex;
   justify-content: center;
   border-top: 2px solid rgb(72,72,72);
   border-bottom: 2px solid rgb(72,72,72);
-  width: 60%;
+  width: 500px;
   margin: 0 auto 30px;
 }
+
 
 h2 {
   font-weight: 600;
 }
 
 .bullets {
-  width: 60%;
+  width: 500px;
   margin: 0 auto 50px;
 }
 
