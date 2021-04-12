@@ -1,0 +1,16 @@
+body {
+  color: rgb(72,72,72);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+}
+
+.container {
+  border: 5px solid black;
+  background-color: rgb(240,240,240);
+  width: 60%;
+  margin: 0 auto;
+}
+
+img {
+  width: 200px;
+}
