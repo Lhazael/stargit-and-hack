@@ -1,3 +1,34 @@
+.container {
+  border: 5px solid black;
+  background-color: rgb(240,240,240);
+  width: 60%;
+  margin: 0 auto;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: grey;
+  font-style: italic;
+}
+
+.photos {
+  display: flex;
+  justify-content: center;
+}
+
 img {
-  height: 500px;
+  height: 400px;
+  margin: 15px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links a {
+  color: dodgerblue;
+  text-decoration: none;
+  margin: 30px;
 }
