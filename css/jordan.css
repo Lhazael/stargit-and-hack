@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: linear-gradient(45deg, rgb(175,238,238), rgb(255,250,205));
+  font-family: 'Kiwi Maru', serif;
+  color: rgb(25,25,112);
 }
 
 .container {
-  width: 65%;
   margin: 0 auto;
 }
 
@@ -12,19 +19,52 @@ h1, p, img {
   justify-content: center;
 }
 
-.bullets {
-  display: block;
-  border-top: 2px solid black;
-  padding-top: 15px;
+h1 {
+  margin-bottom: 0;
 }
 
 img {
-  width: 150px;
+  height: 300px;
   margin: 0 auto;
   border-radius: 10px;
 }
 
+.card-container {
+  width: 75%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.card {
+  width: 25%;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid rgb(25,25,112);
+  text-align: center;
+}
+
+.photo-card {
+  border: none;
+  margin-top: 0;
+}
+
+i {
+  font-size: 2rem;
+}
+
 .links {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+a {
+  margin: 20px;
+  background-color: rgb(25,25,112);
+  color: white;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 10px;
+  font-size: 0.9rem;
 }
