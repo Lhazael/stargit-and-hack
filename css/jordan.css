@@ -1,9 +1,13 @@
+body {
+  background: linear-gradient(45deg, rgb(175,238,238), rgb(255,250,205));
+}
+
 .container {
   width: 65%;
   margin: 0 auto;
 }
 
-h1, p, a, img {
+h1, p, img {
   display: flex;
   justify-content: center;
 }
@@ -15,6 +19,12 @@ h1, p, a, img {
 }
 
 img {
-  width: 200px;
+  width: 150px;
   margin: 0 auto;
+  border-radius: 10px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
 }
